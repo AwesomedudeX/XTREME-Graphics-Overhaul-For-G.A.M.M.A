@@ -5,7 +5,7 @@ st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
 page = st.sidebar.radio("**Navigation:**", ["Home", "Modlist Compatibility", "Load Atmospheric Preset"])
 atmospreset = """
-r__color_grading (0.35, 0.5, 0.6)
+r__color_grading (0.35, 0.5, 0.7)
 
 r__detail_density 0.34
 r__detail_height 1.
@@ -13,9 +13,9 @@ r__detail_radius 170
 r__dtex_range 50.
 r__enable_grass_shadow on
 
-r__saturation 1.35
-r__gamma 0.83
-r__exposure 1.2
+r__saturation 1.4
+r__gamma 0.9
+r__exposure 1
 scope_factor 1
 
 r2_sun_lumscale 3.
